@@ -21,6 +21,8 @@ Overall recommendations:
 Documenting a study using the DDI and DCMI metadata standards consists of generating a metadata file which will be saved in XML format in what is called an XML Document. The Document Description described below is a description of that XML file. The IHSN Template selected 5 elements to describe the DDI document.
 
 .. image:: images/5.1.png
+   :height: 500px
+   :width: 400px
 
 5.2.	Good practices for completing the Study Description
 
