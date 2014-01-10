@@ -35,11 +35,13 @@ The File Description is the DDI section that aims to provide a detailed descript
 [Table]
 
 **5.4.	Good practices for completing the Variables Description**
+
 The Variable Description is the section of the DDI document that provides detailed information on each variable.
 
 [Table]
 
 **5.5.	Good practices for completing the External Resources description**
+
 The External Resources are all materials related to the study others than the data files. They include documents (such as the questionnaires, interviewer’s manuals, reports, etc), programs (data entry, editing, tabulation, and analysis), maps, photos, and others. To document external resources, the IHSN Toolkit uses the Dublin Core metadata standard (which complements the DDI standard).
 
 [Table]
