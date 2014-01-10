@@ -7,14 +7,14 @@ All information related to the survey may be useful and should be archived (even
 *	The survey questionnaire(s); make sure that the cover page and all sections are included. If the questionnaire exists in multiple languages, provide all versions.
 *	All technical, analytical and administrative documents 
 
-**	Sampling information 
-**	Interviewers and supervisors manuals
-**	List of codes 
-**	Instructions for data editing
-**	Survey report (tabulation and analysis) 
-**	Analytical papers and policy briefs that made use of the data
-**	Survey budget and other key planning documents
-**	Powerpoint presentations and other related material
+ *	Sampling information 
+ *	Interviewers and supervisors manuals
+ *	List of codes 
+ *	Instructions for data editing
+ *	Survey report (tabulation and analysis) 
+ *	Analytical papers and policy briefs that made use of the data
+ *	Survey budget and other key planning documents
+ *	Powerpoint presentations and other related material
 
 *	Computer programs (used for data entry, editing, tabulation and analysis)
 *	Photos
