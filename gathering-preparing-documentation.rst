@@ -3,6 +3,7 @@ Gathering and preparing the documentation
 ================
 
 All information related to the survey may be useful and should be archived (even if not all will be disseminated to the public). This includes not only technical documents such as the questionnaires or list of codes (obviously needed by data users), but also administrative reports (potentially useful for implementation of future surveys), and other documents such as a compilation of the comments provided by stakeholders at the time the questionnaire was designed, etc. Resources to be included if available include:
+
 *	The survey questionnaire(s); make sure that the cover page and all sections are included. If the questionnaire exists in multiple languages, provide all versions.
 *	All technical, analytical and administrative documents 
 **	Sampling information 
