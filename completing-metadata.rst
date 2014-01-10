@@ -22,7 +22,7 @@ Documenting a study using the DDI and DCMI metadata standards consists of genera
 
 .. image:: images/5.1.png
    :height: 500px
-   :width: 400px
+   :width: 700px
 
 5.2.	Good practices for completing the Study Description
 
