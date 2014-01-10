@@ -21,13 +21,11 @@ This Guide is not an IHSN Toolkit reference or training manual. It is assumed th
 
 Before you start: organizing your files
 ---------------------------------------------
-.. image:: images/org_files.png
-
 Documentation of a dataset will be considerably facilitated if you organize your data and other files properly. We recommend that, before anything else, you create the necessary directories as follows:
 
 *	Create a directory for the survey. We suggest you name it using the survey’s abbreviated name and year, e.g. “HIES2007” for “Household Income and Expenditure Survey 2007”
 *	Create various sub-directories for the data files (and for the various versions of the dataset if relevant)
 *	Create sub-directories for the documentation and for the program files if relevant (see example).
-
+.. image:: images/org_files.png
 
 .. [#f1]  DDI (Data Documentation Initiative) and DCMI (Dublin Core Metadata Initiative) are international XML metadata specifications. For more information on these standards and on the IHSN Toolkit, please visit www.surveynetwork.org.
