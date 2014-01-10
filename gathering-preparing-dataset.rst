@@ -23,31 +23,7 @@ If you prepare your data files for public dissemination, it may be preferable to
 
 Example: Suppose the unique identification of a household is the combination of variables PROV (Province), DIST (District), EA (Enumeration Area), HHNUM (Household Number). The following options are possible:
 
-Generate a concatenated ID	Option 3: 
-Generate a sequential number
-PROV	DIST	EA	HHNUM	HHID	HHID
-12	01	014	004	1201014004	1
-12	01	015	001	1201015001	2
-13	07	008	112	1307008112	3
-Etc	Etc	Etc	Etc	Etc	Etc
-
-+-----------------------------------------+--------------------+--------------------+
-| Option 1:                               | Option 2:          | Option 3:          |
-| Use a combination of four variables	  | Generate a         | Generate a         |
-|                                         | concatenated ID    | sequential number  |
-+=========================================+====================+====================+
-| .....                    | HHID               |           HHID     |
-+-----------------------------------------+--------------------+--------------------+
-| .....                    | 1201014004           |           1        |
-+-----------------------------------------+--------------------+--------------------+
-| .....                    | 1201015001           |           2 |
-+-----------------------------------------+--------------------+--------------------+
-| .....                    | 1307008112           |           3 |
-+-----------------------------------------+--------------------+--------------------+
-| .....                   | Etc          |           Etc|
-+-----------------------------------------+--------------------+--------------------+
-
-
+.. image:: images/table1.png
 
 Options 2 and 3 are recommended. Note that if option 3 is chosen, it is crucial to preserve (but not distribute) a file that would provide the mapping between the original codes and the new HHID.
 *	Make sure that, in all data files, the identification variable(s) provide a unique identifier. Use the duplicate function in SPSS or the isid command in Stata to verify this. 
