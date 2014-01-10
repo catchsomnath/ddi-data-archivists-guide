@@ -21,6 +21,7 @@ This Guide is not an IHSN Toolkit reference or training manual. It is assumed th
 
 Before you start: organizing your files
 ---------------------------------------------
+.. image:: images/org_files.png
 
 Documentation of a dataset will be considerably facilitated if you organize your data and other files properly. We recommend that, before anything else, you create the necessary directories as follows:
 
