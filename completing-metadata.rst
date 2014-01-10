@@ -20,8 +20,16 @@ Overall recommendations:
 
 Documenting a study using the DDI and DCMI metadata standards consists of generating a metadata file which will be saved in XML format in what is called an XML Document. The Document Description described below is a description of that XML file. The IHSN Template selected 5 elements to describe the DDI document.
 
-.. image:: images/5.1.png
-.. image:: images/5.1.1.png
+| Elements | Description |
+|--------- | ----------: |
+|Study Title | The title is the official name of the survey as it is stated on the questionnaire or as it appears in the design documents. The following items should be noted:
+o	Include the reference year(s) of the survey in the title. 
+o	Do not include the abbreviation of the survey name in the title.
+o	As the survey title is a proper noun, the first letter of each word should be capitalized (except for prepositions or other conjunctions). 
+o	Including the country name in the title is optional.
+
+Examples: 	National Household Budget Survey 2002-2003
+  		Popstan Multiple Indicator Cluster Survey 2002 |
 
 5.2.	Good practices for completing the Study Description
 
