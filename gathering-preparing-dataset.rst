@@ -64,4 +64,5 @@ Options 2 and 3 are recommended. Note that if option 3 is chosen, it is crucial 
 *	Generate descriptive statistics for all variables (frequencies for discrete variables; min/max/mean for continuous variables) and verify that these statistics look reasonable.
 *	Compress the variables to reduce the file size; use the compress command in Stata, or the compress option when you save a SPSS data file. 
 *	Sort records by their unique identifier before you save the file.
+
 .. image:: images/suggestions.png
