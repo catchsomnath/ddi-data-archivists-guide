@@ -20,11 +20,30 @@ Overall recommendations:
 
 Documenting a study using the DDI and DCMI metadata standards consists of generating a metadata file which will be saved in XML format in what is called an XML Document. The Document Description described below is a description of that XML file. The IHSN Template selected 5 elements to describe the DDI document.
 
-|  Elements  |  Description |
-|  --------  |  ----------- |
-|  Study Title  |  The title is the official name of the survey as it is stated on the questionnaire or as it appears in the design documents. The following items should be noted  |
-
-
+| Elements           |                                          Description                                          |
+|--------------------|:---------------------------------------------------------------------------------------------:|
+| Study Title        | The title is the official name of the survey as it is stated on the                           |
+|                    | questionnaire or as it appears in the design documents. The following items                   |
+|                    | should be noted:                                                                              |
+|                    | 1. Include the reference year(s) of the survey in the                                         |
+|                    | title.                                                                                        |
+|                    | 2. Do not include the abbreviation of the survey name                                         |
+|                    | in the title.                                                                                 |
+|                    | 3. As the survey title is a proper noun, the first                                            |
+|                    | letter of each word should be capitalized (except for prepositions or other                   |
+|                    | conjunctions).                                                                                |
+|                    | 4. Including the country name in the title is                                                 |
+|                    | optional.                                                                                     |
+|                    | **Examples**:                                                                                 |
+|                    | National Household Budget Survey 2002-2003,Popstan                                            |
+|                    | Multiple Indicator Cluster Survey 2002                                                        |
+| Metadata Producer  | Name of the                                                                                   |
+|                    | person(s) or organization(s) who documented the dataset. Use the                              |
+|                    | "role" attribute to distinguish different stages of involvement in                            |
+|                    | the production process.                                                                       |
+| Date of Production | This is the date (in ISO format YYYY-MM-DD) the DDI document was                              |
+|                    | produced (not distributed or archived). This date will be automatically imputed when you save |
+|                    | the file.                                                                                     |
 
 **5.2.	Good practices for completing the Study Description**
 
