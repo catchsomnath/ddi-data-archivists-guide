@@ -38,7 +38,11 @@ Documenting a study using the DDI and DCMI metadata standards consists of genera
 
 In the DDI standard, the Study Description is the section that contains all elements needed to describe the study itself (investigators, dates and methods, scope and coverage, etc.) 
 
-[Table]
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
 
 **5.3.	Good practices for completing the File Description**
 
