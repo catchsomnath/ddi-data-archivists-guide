@@ -1177,14 +1177,14 @@ In the DDI standard, the Study Description is the section that contains all elem
                     <li>Mode of data entry (manual or by scanning, in the field/in regions/at headquarters)
                 <li>Computer architecture (laptop computers in the field, desktop computers, scanners, PDA, other; indicate the number of computers used)
                 
-                <ul>
+               
                     <li>
                         Software used
                     </li>
                     <li>
                         Use (and rate) of double data entry
                     </li>
-                </ul>
+            
                 <li>Average productivity of data entry operators; number of data entry operators involved and their work schedule
               <ul>
                 <p>
@@ -1220,9 +1220,10 @@ In the DDI standard, the Study Description is the section that contains all elem
 					<li>Calculation of wealth quintiles and merging into data</li>
 					<li>Structural checking of SPSS files</li>
 					<li>Data quality tabulations</li>
-					<li>Production of analysis tabulations<</li>
+					<li>Production of analysis tabulations</li>
                 </ul>
-                <p>
+                
+				<p>
                     <em>
                         Details of each of these steps can be found in the data processing documentation, data editing guidelines, data processing programs in
                         CSPro and SPSS, and tabulation guidelines.
@@ -1353,8 +1354,8 @@ In the DDI standard, the Study Description is the section that contains all elem
                 </p>
                 <ul>
                     <li>For a population census, information on the post enumeration survey (a report should be provided in external resources and mentioned here).
-                    <li> For any survey/census, a comparison with data from another source.
-                    <li>Etc.</li>
+                    <li> For any survey/census, a comparison with data from another source.Etc. </li>
+                    
 				</ul>
                 <p>
                     Example:
@@ -1772,33 +1773,17 @@ The Variable Description is the section of the DDI document that provides detail
                 <p>
                     All variables should have a label that
                 </p>
-                <p>
-                    · Provides the item or question number in the original data collection instrument (unless item number serves as the variable name)
-                </p>
                 <ul>
-                    <li>
-                        Provides a clear indication of what the variable contains
-                    </li>
-                </ul>
-                <p>
-                    · Provides an indication of whether the variable is constructed from other items
-                </p>
-                <p>
-                    Recommendations:
-                </p>
+					<li>Provides the item or question number in the original data collection instrument (unless item number serves as the variable name)</li>
+					<li>Provides a clear indication of what the variable contains</li>
+					<li>Provides an indication of whether the variable is constructed from other items</li>
+                
+				<P>Recommendations: </p>
                 <ul>
-                    <li>
-                        Do not use ALL CAPS in labels.
-                    </li>
+                    <li>Do not use ALL CAPS in labels.</li>
+					<li>Make sure that different variables have different labels (avoid duplicate labels). The IHSN Toolkit provides a tool to check availability and unicity of variable labels (see Tools &gt; Validate Variable).
+					<li>For expenditure or income: indicating the currency and period of reference is crucial (e.g. "Annual per capita real expenditure in local currency" </li>
                 </ul>
-                <p>
-                    · Make sure that different variables have different labels (avoid duplicate labels). The IHSN Toolkit provides a tool to check availability
-                    and unicity of variable labels (see Tools &gt; Validate Variable).
-                </p>
-                <p>
-                    · For expenditure or income: indicating the currency and period of reference is crucial (e.g. "Annual per capita real expenditure in local
-                    currency"
-                </p>
             </td>
         </tr>
         <tr>
@@ -1847,22 +1832,15 @@ The Variable Description is the section of the DDI document that provides detail
                 <p>
                     Four types of variables are recognized by the Toolkit:
                 </p>
-                <p>
-                    · Numeric: <em>Numeric variables are used to store any number, integer or floating point (decimals).</em>
-                </p>
-                <p>
-                    · Fixed string:
+                <ul>
+                    <li>Numeric: <em>Numeric variables are used to store any number, integer or floating point (decimals).</em>
+                <li>Fixed string:
                     <em>
-                        A fixed string variable has a predefined length (default length is 8 but it can range from 1 to 255 characters in length) which enables
-                        the publisher to handle this data type more efficiently.
-                    </em>
-                </p>
-                <p>
-                    · Dynamic string: <em>Dynamic string variables can be used to store open-ended questions.</em>
-                </p>
-                <p>
-                    · Date: <em>date variables stored in ISO format (YYYY-MM-DD?—should specify)</em>
-                </p>
+                        A fixed string variable has a predefined length (default length is 8 but it can range from 1 to 255 characters in length) which enables the publisher to handle this data type more efficiently.
+                    </em></li>
+					<li>Dynamic string: <em>Dynamic string variables can be used to store open-ended questions.</em></li>
+					<li>Date: <em>date variables stored in ISO format (YYYY-MM-DD?—should specify)</em></li>
+                </ul>
                 <p>
                     The data type is usually properly identified when the data is imported. It is important to avoid the use of string variables when this is not absolutely needed. Such issues must be taken care of before the data is imported in the Toolkit. See the section on "<a href="#_Gathering_and_preparing">Gathering and preparing the dataset</a>" above.
                 </p>
@@ -2021,19 +1999,17 @@ The Variable Description is the section of the DDI document that provides detail
                 <p>
                     Notes:
                 </p>
-                <p>
-                    · Summary statistics such as the mean or standard deviation are calculated using all valid values. If special codes are used to indicate
+                <ul>
+                    <li>Summary statistics such as the mean or standard deviation are calculated using all valid values. If special codes are used to indicate
                     missing values, make sure they are declared in the "Missing" section. If not, they will be included in the calculations. For example, if
                     you use code 99999 for indicating missing values in a variable on household expenditure, code 99999 must be listed in the missing section
                     as follows:
-                </p>
-                <p align="center">
-                    <img src="file:///C:\Users\hrudaya\AppData\Local\Temp\msohtmlclip1\01\clip_image004.jpg" border="0"height="56"/>
-                </p>
-                <p>
-                    · If you modify information such as the categories or missing values, you must use the "Documentation &gt; Update Statistics" command in
+                </li>
+                
+                <li>
+                    If you modify information such as the categories or missing values, you must use the "Documentation > Update Statistics" command in
                     the Toolkit to refresh the summary statistics.
-                </p>
+                </li>
             </td>
         </tr>
         <tr>
@@ -2059,14 +2035,10 @@ The Variable Description is the section of the DDI document that provides detail
                     This element provides a space to describe the variable in detail. Not all variables require definition. The following variables should
                     always be defined when available in a questionnaire:
                 </p>
-                <p>
-                    · Household (attach this definition to the "household ID" variable
-                </p>
-                <p>
-                    · Head of household (attach this definition to the variable "relationship to the head"
-                </p>
-                <ul>
-                    <li>
+				<ul>
+                <li>Household (attach this definition to the "household ID" variable</li>
+                <li>Head of household (attach this definition to the variable "relationship to the head"</li>
+                </ul><li>
                         Urban/rural
                     </li>
                 </ul>
@@ -2101,18 +2073,12 @@ The Variable Description is the section of the DDI document that provides detail
                     Enter information regarding who provided the information contained within the variable. In most cases, the source will be "Head of
                     household" or "Household member". But it may also be
                 </p>
-                <p>
-                    - GPS measure (for geographic position)
-                </p>
-                <p>
-                    - Interviewer’s visual observation (for type of dwelling)
-                </p>
-                <p>
-                    - Best informant in community
-                </p>
-                <p>
-                    - Etc.
-                </p>
+                <ul>
+                    <li>GPS measure (for geographic position)</li>
+					<li>Interviewer’s visual observation (for type of dwelling)</li>
+					<li>Best informant in community</li>
+					<li>Etc.</li>
+                </ul>
             </td>
         </tr>
         <tr>
@@ -2151,17 +2117,14 @@ The Variable Description is the section of the DDI document that provides detail
                 </p>
             </td>
             <td valign="top">
-                <p>
-The <em>pre-question texts </em>are the instructions provided to the interviewers and                    <u>printed in the questionnaire before the literal question</u>. This does not apply to all variables. Do not confuse this with
-                    instructions provided in the interviewer’s manual. With this and the next two fields, one should be able to understand how the question was
-                    asked during the interview. See example below.
+                <p> The <em>pre-question texts </em>are the instructions provided to the interviewers and printed in the questionnaire before the literal question. This does not apply to all variables. Do not confuse this with instructions provided in the interviewer’s manual. With this and the next two fields, one should be able to understand how the question was asked during the interview. See example below.
                 </p>
                 <p>
                     The <em>literal question</em> is the full text of the questionnaire as the enumerator is expected to ask it when conducting the interview.
                     This does not apply to all variables (it does not apply to derived variables).
                 </p>
                 <p>
-The <em>post-question texts</em> are instructions provided to the interviewers,                    <u>printed in the questionnaire after the literal question</u>. Post-question can be used to enter information on skips provided in the
+The <em>post-question texts</em> are instructions provided to the interviewers, printed in the questionnaire after the literal question</u>. Post-question can be used to enter information on skips provided in the
                     questionnaire. This does not apply to all variables. Do not confuse this with instructions provided in the interviewer’s manual. With this
                     and the next two fields, one should be able to understand how the question was asked during the interview. See example above.
                 </p>
@@ -2169,9 +2132,7 @@ The <em>post-question texts</em> are instructions provided to the interviewers, 
                     Example: In the example below (extracted from a UNICEF-MICS standard questionnaire), we find a pre-question, a literal question and a
                     post-question.
                 </p>
-                <p>
-                    <img src="file:///C:\Users\hrudaya\AppData\Local\Temp\msohtmlclip1\01\clip_image006.jpg" border="0"height="70"/>
-                </p>
+                
                 <ul>
                     <li>
                         Pre-question: <em>Check age. If child is 3 years old or more, ask:</em>
@@ -2229,22 +2190,22 @@ The <em>post-question texts</em> are instructions provided to the interviewers, 
                     be used by researchers. In cases where the recoding or derivation method was very simple, a full description can be provided here. For
                     example, if variable AGE_GRP was obtained by recoding variable S1Q3, we could simply mention
                     <em>
-                        "Variable obtained by recoding the age in years provided in variable S1Q3 into age groups for years 0-4, 5-9, …, 60-64, 65 and over.
-                        Code 99 indicates unknown age."
+                        “Variable obtained by recoding the age in years provided in variable S1Q3 into age groups for years 0-4, 5-9, …, 60-64, 65 and over.
+                        Code 99 indicates unknown age.”
                     </em>
                 </p>
                 <p>
                     When the derivation method is more complex, provide here a reference to a document (and/or computer program) to be provided as an External
-                    Resource. This will be the case for example for a variable "TOT_EXP" containing the household annual total expenditure, obtained from a
+                    Resource. This will be the case for example for a variable “TOT_EXP” containing the household annual total expenditure, obtained from a
                     household budget survey. In such case, the information provided here could be:
                 </p>
                 <p>
                     <em>
-                        "This variable provides the annual household expenditure. It was obtained by aggregating expenditure data on all goods and services,
+                        “This variable provides the annual household expenditure. It was obtained by aggregating expenditure data on all goods and services,
                         available in sections 4 to 6 of the household questionnaire. It contains imputed rental values for owner-occupied dwellings. The values
-                        have been deflated by a regional price deflator available in variable REG_DEF". All values are in local currency. Outliers have been
+                        have been deflated by a regional price deflator available in variable REG_DEF”. All values are in local currency. Outliers have been
                         fixed. Details on the calculations are available in Appendix 2 of the Report on Data Processing, and in the Stata program
-                        "aggregates.do" available in external resources."
+                        “aggregates.do” available in external resources.”
                     </em>
                 </p>
             </td>
@@ -2533,7 +2494,7 @@ The External Resources are all materials related to the study others than the da
                     their projects should use when documenting studies.
                 </p>
             </td>
-        </tr>
+			</tr>
 		</tbody>
 		</table>
 
