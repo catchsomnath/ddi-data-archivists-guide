@@ -43,9 +43,17 @@ Name of the person(s) or organization(s) who documented the dataset. Use the "ro
 
 Example:
 
-**Name											Role**
-National Statistics Office (NSO)				Documentation of the study
-International Household Survey Network (IHSN)  	Review of the metadata
+**Name**
+National Statistics Office (NSO)
+**Role**
+Documentation of the study
+**Name**
+International Household Survey Network (IHSN)
+**Role**
+Review of the metadata
+
+**Date of Production**
+This is the date (in ISO format YYYY-MM-DD) the DDI document was produced (not distributed or archived). This date will be automatically imputed when you save the file.
 
 
 
