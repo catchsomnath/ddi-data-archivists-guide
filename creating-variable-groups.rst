@@ -14,8 +14,10 @@ If you decide to create variable groups (and sub-groups if needed), make sure th
 
 Variable groups also have their own DDI elements which include Type, Label, Text, Definition, Universe, and Notes. These elements are optional and will in most cases be left empty.
 
-<table border="1" cellpadding="0" cellspacing="0">
-    <tbody>
+.. raw:: html
+
+		<table border="1" cellpadding="0" cellspacing="0">
+		<tbody>
         <tr>
             <td valign="top">
                 <p>
