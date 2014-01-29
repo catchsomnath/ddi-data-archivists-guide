@@ -20,48 +20,177 @@ Overall recommendations:
 
 Documenting a study using the DDI and DCMI metadata standards consists of generating a metadata file which will be saved in XML format in what is called an XML Document. The Document Description described below is a description of that XML file. The IHSN Template selected 5 elements to describe the DDI document.
 
-**Study Title**
 
-The title is the official name of the survey as it is stated on the questionnaire or as it appears in the design documents. The following items should be noted:
-
-*	Include the reference year(s) of the survey in the title. 
-
-*	Do not include the abbreviation of the survey name in the title.
-
-*	As the survey title is a proper noun, the first letter of each word should be capitalized (except for prepositions or other conjunctions). 
-
-*	Including the country name in the title is optional.
-
-	Examples: 	
-A. National Household Budget Survey 2002-2003
-  
-B. Popstan Multiple Indicator Cluster Survey 2002
-
-**Metadata Producer**
-
-Name of the person(s) or organization(s) who documented the dataset. Use the "role" attribute to distinguish different stages of involvement in the production process. 
-
-Example:
-
-**Name**
-
-National Statistics Office (NSO)
-
-**Role**
-
-Documentation of the study
-
-**Name**
-
-International Household Survey Network (IHSN)
-
-**Role**
-
-Review of the metadata
-
-**Date of Production**
-
-This is the date (in ISO format YYYY-MM-DD) the DDI document was produced (not distributed or archived). This date will be automatically imputed when you save the file.
+<table border="1" cellpadding="0" cellspacing="0">
+    <tbody>
+        <tr>
+            <td valign="top" width="129">
+                <p>
+                    Study Title
+                </p>
+            </td>
+            <td valign="top" width="454">
+                <p>
+                    The title is the official name of the survey as it is stated on the questionnaire or as it appears in the design documents. The following
+                    items should be noted:
+                </p>
+                <p>
+                    o Include the reference year(s) of the survey in the title.
+                </p>
+                <p>
+                    o Do not include the abbreviation of the survey name in the title.
+                </p>
+                <p>
+                    o As the survey title is a proper noun, the first letter of each word should be capitalized (except for prepositions or other
+                    conjunctions).
+                </p>
+                <p>
+                    o Including the country name in the title is optional.
+                </p>
+                <p>
+                    <em> </em>
+                </p>
+                <p>
+                    Examples: <em> National Household Budget Survey 2002-2003</em>
+                </p>
+                <p>
+                    <em> Popstan Multiple Indicator Cluster Survey 2002</em>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="129">
+                <p>
+                    Metadata Producer
+                </p>
+            </td>
+            <td valign="top" width="454">
+                <p>
+                    Name of the person(s) or organization(s) who documented the dataset. Use the "role" attribute to distinguish different stages of
+                    involvement in the production process.
+                </p>
+                <p>
+                    Example:
+                </p>
+                <table border="1" cellpadding="0" cellspacing="0">
+                    <tbody>
+                        <tr>
+                            <td valign="top" width="272">
+                                <p>
+                                    <em>Name</em>
+                                </p>
+                            </td>
+                            <td valign="top" width="167">
+                                <p>
+                                    <em>Role</em>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top" width="272">
+                                <p>
+                                    <em>National Statistics Office (NSO)</em>
+                                </p>
+                            </td>
+                            <td valign="top" width="167">
+                                <p>
+                                    <em>Documentation of the study</em>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top" width="272">
+                                <p>
+                                    <em>International Household Survey Network (IHSN) </em>
+                                </p>
+                            </td>
+                            <td valign="top" width="167">
+                                <p>
+                                    <em>Review of the metadata</em>
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="129">
+                <p>
+                    Date of Production
+                </p>
+            </td>
+            <td valign="top" width="454">
+                <p>
+                    This is the date (in ISO format YYYY-MM-DD) the DDI document was produced (not distributed or archived). This date will be automatically
+                    imputed when you save the file.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="129">
+                <p>
+                    DDI Document Version
+                </p>
+            </td>
+            <td valign="top" width="454">
+                <p>
+                    Documenting a dataset is not a trivial exercise. Producing “perfect” metadata is probably impossible. It may therefore happen that, having
+                    identified errors in a DDI document or having received suggestions for improvement, you decide to modify the Document even after a first
+                    version has been disseminated. This element is used to identify and describe the current version of the document. It is good practice to
+                    provide a version number (and date), and information on what distinguishes this version from the previous one(s) if relevant.
+                </p>
+                <p>
+                    Example:
+                </p>
+                <p>
+                    <em>Version 1.1 (July 2006). This version is identical to version 1.0, except for the section on Data Appraisal which was updated.</em>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="129">
+                <p>
+                    DDI Document ID Number
+                </p>
+            </td>
+            <td valign="top" width="454">
+                <p>
+                    The ID number of a DDI document is a unique number that is used to identify this DDI file. Define and use a consistent scheme to use. Such
+                    an ID could be constructed as follows: DDI-country-producer-survey-year where
+                </p>
+                <p>
+                    o <em>country</em> is the 3-letter ISO country abbreviation
+                </p>
+                <p>
+                    o <em>producer</em> is the abbreviation of the producing agency
+                </p>
+                <p>
+                    o <em>survey</em> is the survey abbreviation
+                </p>
+                <p>
+                    o <em>year</em> is the reference year (or the year the survey started)
+                </p>
+                <p>
+                    o DDI document version number
+                </p>
+                <p>
+                    Example:
+                </p>
+                <p>
+                    <em>
+                        The DDI file related to the Demographic and Health Survey documented by staff from the Uganda Bureau of Statistics in 2005 would have
+                        the following ID:
+                    </em>
+                </p>
+                <p>
+                    <em>DDI-UGA-UBOS-DHS-2005-v01. </em>
+                    <em>If the same survey is documented by a staff from the IHSN, this would be DDI-UGA-IHSN-DHS-205-v01.</em>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
 
