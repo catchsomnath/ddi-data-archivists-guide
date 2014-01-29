@@ -37,6 +37,17 @@ A. National Household Budget Survey 2002-2003
   
 B. Popstan Multiple Indicator Cluster Survey 2002
 
+**Metadata Producer**
+
+Name of the person(s) or organization(s) who documented the dataset. Use the "role" attribute to distinguish different stages of involvement in the production process. 
+
+Example:
+
+**Name											Role**
+National Statistics Office (NSO)				Documentation of the study
+International Household Survey Network (IHSN)  	Review of the metadata
+
+
 
 **5.2.	Good practices for completing the Study Description**
 
