@@ -23,11 +23,11 @@ Then establish the relations and validate them using the Tool > Validate Relatio
 		
 		•	A data file "prices.dat" with average price per commodity, per district (one record per item per district). Each record is uniquely identified by variables district and itemno.
 
-.. image:: images/er_example.png
+.. image:: images/er-example.png
 
 In the IHSN Toolkit, these relationships will be established as follows in the “Key variables and relationships” section of each data file:
 
-.. image:: images/er_example1.png
+.. image:: images/er-example1.png
 
 If you have imported your data from any format other than fixed ASCII, re-sequence the data using the Variables > Resequence option in the Toolkit. This re-sequencing tool will automatically fill the "StartCol" and "EndCol" columns in the variable description section. This must be done for each data file.
 
