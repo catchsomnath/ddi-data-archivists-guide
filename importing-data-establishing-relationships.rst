@@ -14,16 +14,20 @@ Then establish the relations and validate them using the Tool > Validate Relatio
 .. topic:: Establishing relationships – An example
 
 		In this example, we assume that the dataset is obtained from a household budget survey and comprises:
+		
 		•	A household-level file "hhld.dat" with the household characteristics (one record per household). Each household is identified by a variable named hhid.
+		
 		•	An individual-level file "ind.dat" with variables related to each member of the household (one record per person). Each household member is identified by the combination of variables hhid and memno.
+		
 		•	A consumption data file "cons.dat", with one record per item (goods and services) per household. Each record is uniquely identified by the combination of variables hhid and itemno. The file also contains a variable district identifying the district where the household resides.
+		
 		•	A data file "prices.dat" with average price per commodity, per district (one record per item per district). Each record is uniquely identified by variables district and itemno.
 
-.. image:: images/er_exmaple.png
+.. image:: images/er_example.png
 
 In the IHSN Toolkit, these relationships will be established as follows in the “Key variables and relationships” section of each data file:
 
-.. image:: images/er_exmaple1.png
+.. image:: images/er_example1.png
 
 If you have imported your data from any format other than fixed ASCII, re-sequence the data using the Variables > Resequence option in the Toolkit. This re-sequencing tool will automatically fill the "StartCol" and "EndCol" columns in the variable description section. This must be done for each data file.
 
