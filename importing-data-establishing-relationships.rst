@@ -11,9 +11,9 @@ After all files are imported and ordered in a proper sequence, define the key va
 
 Then establish the relations and validate them using the Tool > Validate Relationships in the Toolkit. This automatic validation is a way to check the structural integrity of the identifier variables and assure there are no duplicates in the data. 
 
-.. important::
+.. topic:: Establishing relationships – An example
 
-**Establishing relationships – An example**
+
 
 In this example, we assume that the dataset is obtained from a household budget survey and comprises:
 •	A household-level file "hhld.dat" with the household characteristics (one record per household). Each household is identified by a variable named hhid.
