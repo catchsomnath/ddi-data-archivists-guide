@@ -4,9 +4,9 @@
 
 In the DDI standard, the Study Description is the section that contains all elements needed to describe the study itself (investigators, dates and methods, scope and coverage, etc.) 
 
-================
+---------------
 Identification
-================		
+---------------		
 
 .. raw:: html
 
@@ -179,9 +179,9 @@ Identification
         </tbody>
 		</table>
 
-================
+---------------
 Version
-================		
+---------------		
 
 .. raw:: html
 
@@ -250,12 +250,9 @@ Version
         </tbody>
 		</table>
 
-</tbody>
-		</table>
-
-================
+---------------
 Overview
-================		
+---------------		
 
 .. raw:: html
 
@@ -309,9 +306,9 @@ Overview
 		</tbody>
 		</table>
 
-================
+---------------
 Scope
-================		
+---------------		
 
 .. raw:: html
 
@@ -391,9 +388,9 @@ Scope
         </tr>
         </table>
 		
-================
+---------------
 Coverage
-================		
+---------------		
 .. raw:: html
 
 		<table>
@@ -536,9 +533,9 @@ Producers and Sponsors
         </tbody>
 		</table>
 
-================
+---------------
 Sampling
-================		
+---------------		
 
 .. raw:: html
 
@@ -674,9 +671,9 @@ Sampling
 		</tbody>
 		</table>
 
-================
+---------------
 Data Collection
-================		
+---------------		
 
 .. raw:: html
 
@@ -784,9 +781,9 @@ Data Collection
         </tbody>
 		</table>
 
-================
+---------------
 Data Processing
-================		
+---------------		
 
 .. raw:: html
 
@@ -948,9 +945,9 @@ Data Processing
         </tbody>
 		</table>
 
-================
+---------------
 Data Processing
-================		
+---------------		
 
 .. raw:: html
 
@@ -1118,9 +1115,9 @@ Data Processing
     	</tbody>
 		</table>
 
-================
+---------------
 Data Appraisal
-================		
+---------------		
 
 .. raw:: html
 
@@ -1242,9 +1239,9 @@ Data Appraisal
         </tbody>
 		</table>
 
-================
+---------------
 Data Access
-================		
+---------------		
 
 .. raw:: html
 
@@ -1392,9 +1389,9 @@ Data Access
         </tbody>
 		</table>
 
-================
+---------------
 Disclaimer and Copyright
-================		
+---------------		
 
 .. raw:: html
 
@@ -1422,9 +1419,9 @@ Disclaimer and Copyright
     	</tbody>
 		</table>
 
-================
+---------------
 Contacts
-================		
+---------------		
 
 .. raw:: html
 
