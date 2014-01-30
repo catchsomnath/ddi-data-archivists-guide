@@ -24,6 +24,7 @@ Then establish the relations and validate them using the Tool > Validate Relatio
 		•	A data file "prices.dat" with average price per commodity, per district (one record per item per district). Each record is uniquely identified by variables district and itemno.
 
 .. image:: images/er-example.png
+		width: 100px;
 
 In the IHSN Toolkit, these relationships will be established as follows in the “Key variables and relationships” section of each data file:
 
