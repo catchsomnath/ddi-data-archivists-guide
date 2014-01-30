@@ -8,6 +8,7 @@ A thorough completion of the DDI and DCMI elements will significantly raise the 
 
 The DDI requires completion of the following sections: Document Description, Study Description, Data Files Description, Variables Description, and External Resources Description. Recommendations for each field included in the IHSN template are provided below. 
 
+.. code-block:: Recommendation
 The IHSN recommends using the standardized IHSN DDI/DCMI templates (Study Template and External Resources Template). This Quick Reference Guide is based on these two templates. Visit the IHSN website to download the latest version of these templates, available in multiple languages.
 
 Overall recommendations:
