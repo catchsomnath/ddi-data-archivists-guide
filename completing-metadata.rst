@@ -1747,7 +1747,7 @@ The Variable Description is the section of the DDI document that provides detail
 
 .. raw:: html
 
-	<table border="1" cellpadding="0" cellspacing="0">
+		<table border="1" cellpadding="0" cellspacing="0">
 	    <tbody>
         <tr>
             <td valign="top">
@@ -2235,8 +2235,8 @@ The <em>post-question texts</em> are instructions provided to the interviewers, 
                 </p>
             </td>
         </tr>
-   	 </tbody>
-	</table>
+		</tbody>
+		</table>
 
 **5.5.	Good practices for completing the External Resources description**
 
