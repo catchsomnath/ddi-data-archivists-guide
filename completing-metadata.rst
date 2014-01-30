@@ -1817,9 +1817,7 @@ The Variable Description is the section of the DDI document that provides detail
                     for Missing must be specified in the "Missing data" field. If you fail to do that, the summary statistics (mean, standard deviation, etc)
                     will be calculated including the missing code, which will be considered as a valid value.
                 </p>
-                <p>
-                    <img src="file:///C:\Users\hrudaya\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg"height="128"/>
-                </p>
+                
             </td>
         </tr>
         <tr>
@@ -2124,7 +2122,7 @@ The Variable Description is the section of the DDI document that provides detail
                     This does not apply to all variables (it does not apply to derived variables).
                 </p>
                 <p>
-The <em>post-question texts</em> are instructions provided to the interviewers, printed in the questionnaire after the literal question</u>. Post-question can be used to enter information on skips provided in the
+					The <em>post-question texts</em> are instructions provided to the interviewers, printed in the questionnaire after the literal question</u>. Post-question can be used to enter information on skips provided in the
                     questionnaire. This does not apply to all variables. Do not confuse this with instructions provided in the interviewer’s manual. With this
                     and the next two fields, one should be able to understand how the question was asked during the interview. See example above.
                 </p>
