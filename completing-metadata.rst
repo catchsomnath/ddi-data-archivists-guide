@@ -2190,22 +2190,22 @@ The <em>post-question texts</em> are instructions provided to the interviewers, 
                     be used by researchers. In cases where the recoding or derivation method was very simple, a full description can be provided here. For
                     example, if variable AGE_GRP was obtained by recoding variable S1Q3, we could simply mention
                     <em>
-                        “Variable obtained by recoding the age in years provided in variable S1Q3 into age groups for years 0-4, 5-9, …, 60-64, 65 and over.
-                        Code 99 indicates unknown age.”
+                        "Variable obtained by recoding the age in years provided in variable S1Q3 into age groups for years 0-4, 5-9, …, 60-64, 65 and over.
+                        Code 99 indicates unknown age."
                     </em>
                 </p>
                 <p>
                     When the derivation method is more complex, provide here a reference to a document (and/or computer program) to be provided as an External
-                    Resource. This will be the case for example for a variable “TOT_EXP” containing the household annual total expenditure, obtained from a
+                    Resource. This will be the case for example for a variable "TOT_EXP" containing the household annual total expenditure, obtained from a
                     household budget survey. In such case, the information provided here could be:
                 </p>
                 <p>
                     <em>
-                        “This variable provides the annual household expenditure. It was obtained by aggregating expenditure data on all goods and services,
+                        "This variable provides the annual household expenditure. It was obtained by aggregating expenditure data on all goods and services,
                         available in sections 4 to 6 of the household questionnaire. It contains imputed rental values for owner-occupied dwellings. The values
-                        have been deflated by a regional price deflator available in variable REG_DEF”. All values are in local currency. Outliers have been
+                        have been deflated by a regional price deflator available in variable REG_DEF". All values are in local currency. Outliers have been
                         fixed. Details on the calculations are available in Appendix 2 of the Report on Data Processing, and in the Stata program
-                        “aggregates.do” available in external resources.”
+                        "aggregates.do" available in external resources."
                     </em>
                 </p>
             </td>

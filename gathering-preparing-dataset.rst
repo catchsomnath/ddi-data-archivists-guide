@@ -15,7 +15,7 @@ Hierarchical file:
  
 .. image:: images/hier_file.png
  
-*	If a dataset contains multiple related files, each record in each file must have a unique identifier. This identifier may be made of one or multiple variables. These identifiers are also called “key variables”, as they are used by statistical packages such as SPSS or Stata when data files need to be merged.  Identifiers must be composed of numeric variables only (some software applications, including the IHSN Toolkit, require that identifiers be numeric. The reason is that sorting and filtering records is much more efficient when variables are numeric). 
+*	If a dataset contains multiple related files, each record in each file must have a unique identifier. This identifier may be made of one or multiple variables. These identifiers are also called "key variables", as they are used by statistical packages such as SPSS or Stata when data files need to be merged.  Identifiers must be composed of numeric variables only (some software applications, including the IHSN Toolkit, require that identifiers be numeric. The reason is that sorting and filtering records is much more efficient when variables are numeric). 
 
 For the convenience of users of the data, avoid identifiers made of too many variables. For example, in a household survey, the household identifier will preferably be a single variable (which you may create by concatenating a group of variables ), and the individual identifier should be the combination of only two variables (the household ID, and the sequential number of each member).
 
@@ -23,7 +23,200 @@ If you prepare your data files for public dissemination, it may be preferable to
 
 Example: Suppose the unique identification of a household is the combination of variables PROV (Province), DIST (District), EA (Enumeration Area), HHNUM (Household Number). The following options are possible:
 
-.. image:: images/table1.png
+.. raw:: html
+
+		<table border="1" cellpadding="0" cellspacing="0">
+		<tbody>
+        <tr>
+            <td colspan="4" valign="top">
+                <p>
+                    <strong>Option 1:</strong>
+                </p>
+                <p>
+                    <br/>
+                    Use a combination of four variables
+                </p>
+            </td>
+            <td valign="top">
+                <p>
+                    <strong>Option 2: </strong>
+                </p>
+                <p>
+                    Generate a concatenated ID
+                </p>
+            </td>
+            <td valign="top">
+                <p>
+                    <strong>Option 3:</strong>
+                </p>
+                <p>
+                    Generate a sequential number
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">
+                <p>
+                    PROV
+                </p>
+            </td>
+            <td valign="top">
+                <p>
+                    DIST
+                </p>
+            </td>
+            <td valign="top">
+                <p>
+                    EA
+                </p>
+            </td>
+            <td valign="top">
+                <p>
+                    HHNUM
+                </p>
+            </td>
+            <td valign="top">
+                <p>
+                    HHID
+                </p>
+            </td>
+            <td valign="top">
+                <p>
+                    HHID
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">
+                <p>
+                    12
+                </p>
+            </td>
+            <td valign="top">
+                <p>
+                    01
+                </p>
+            </td>
+            <td valign="top">
+                <p>
+                    014
+                </p>
+            </td>
+            <td valign="top">
+                <p>
+                    004
+                </p>
+            </td>
+            <td valign="top">
+                <p>
+                    1201014004
+                </p>
+            </td>
+            <td valign="top">
+                <p>
+                    1
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">
+                <p>
+                    12
+                </p>
+            </td>
+            <td valign="top">
+                <p>
+                    01
+                </p>
+            </td>
+            <td valign="top">
+                <p>
+                    015
+                </p>
+            </td>
+            <td valign="top">
+                <p>
+                    001
+                </p>
+            </td>
+            <td valign="top">
+                <p>
+                    1201015001
+                </p>
+            </td>
+            <td valign="top">
+                <p>
+                    2
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">
+                <p>
+                    13
+                </p>
+            </td>
+            <td valign="top">
+                <p>
+                    07
+                </p>
+            </td>
+            <td valign="top">
+                <p>
+                    008
+                </p>
+            </td>
+            <td valign="top">
+                <p>
+                    112
+                </p>
+            </td>
+            <td valign="top">
+                <p>
+                    1307008112
+                </p>
+            </td>
+            <td valign="top">
+                <p>
+                    3
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">
+                <p>
+                    Etc
+                </p>
+            </td>
+            <td valign="top">
+                <p>
+                    Etc
+                </p>
+            </td>
+            <td valign="top">
+                <p>
+                    Etc
+                </p>
+            </td>
+            <td valign="top">
+                <p>
+                    Etc
+                </p>
+            </td>
+            <td valign="top">
+                <p>
+                    Etc
+                </p>
+            </td>
+            <td valign="top">
+                <p>
+                    Etc
+                </p>
+            </td>
+        </tr>
+		</tbody>
+		</table>
+
 
 Options 2 and 3 are recommended. Note that if option 3 is chosen, it is crucial to preserve (but not distribute) a file that would provide the mapping between the original codes and the new HHID.
 
@@ -43,11 +236,11 @@ Options 2 and 3 are recommended. Note that if option 3 is chosen, it is crucial 
 
 *	Avoid repeating a same variable in multiple files unless there is a good reason for it (variables identifying the household, variables such as geographic codes, and weighting variables should be present in all files).  
 
-*	Remove all unnecessary or temporary variables from the data files (the variables that present no interest for secondary users). To be useful, a derived variable must be documented.  For example, the filtering variables (“FILTER$”) generated by SPSS, or the _merge variable generated in Stata are not necessary in the files once the analysis is done. 
+*	Remove all unnecessary or temporary variables from the data files (the variables that present no interest for secondary users). To be useful, a derived variable must be documented.  For example, the filtering variables ("FILTER$") generated by SPSS, or the _merge variable generated in Stata are not necessary in the files once the analysis is done. 
 
 *	For sample surveys, verify that the variables identifying the various levels of stratification and the primary sample unit are included and easily identified in at least one of the data files. These variables are needed for the calculation of sampling errors.
 
-*	Put the variables in a logic sequence (using the order command in Stata if needed or the “/KEEP=” option in SPSS when saving a file).
+*	Put the variables in a logic sequence (using the order command in Stata if needed or the "/KEEP=" option in SPSS when saving a file).
 
 *	Generate descriptive statistics for all variables (frequencies for discrete variables; min/max/mean for continuous variables) and verify that these statistics look reasonable.
 
@@ -55,4 +248,6 @@ Options 2 and 3 are recommended. Note that if option 3 is chosen, it is crucial 
 
 *	Sort records by their unique identifier before you save the file.
 
-.. image:: images/suggestions.png
+**Suggestion:**
+
+If you are in the process of establishing a data archive and plan to document a collection of surveys, undertake a full inventory of all existing data and metadata before you start the documentation. Use the IHSN Inventory Guidelines and Forms to facilitate this inventory (available at www.surveynetwork.org).

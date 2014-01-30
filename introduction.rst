@@ -15,15 +15,15 @@ This Quick Reference Guide for Data Archivists provides data archivists with gui
 9.	Quality assessment
 10.	Producing the output for publication 
 
-Also provided (in appendix) is the IHSN DDI Reviewers’ Feedback Form which provides a standard tool for the assessment of survey metadata by an external reviewer. 
+Also provided (in appendix) is the IHSN DDI Reviewer's Feedback Form which provides a standard tool for the assessment of survey metadata by an external reviewer. 
 
-This Guide is not an IHSN Toolkit reference or training manual. It is assumed that users are already familiar with the Toolkit. A Toolkit User’s Guide is available at www.surveynetwork.org/toolkit.
+This Guide is not an IHSN Toolkit reference or training manual. It is assumed that users are already familiar with the Toolkit. A Toolkit User's Guide is available at www.surveynetwork.org/toolkit.
 
 Before you start: organizing your files
 ---------------------------------------------
 Documentation of a dataset will be considerably facilitated if you organize your data and other files properly. We recommend that, before anything else, you create the necessary directories as follows:
 
-*	Create a directory for the survey. We suggest you name it using the survey’s abbreviated name and year, e.g. “HIES2007” for “Household Income and Expenditure Survey 2007”
+*	Create a directory for the survey. We suggest you name it using the survey's abbreviated name and year, e.g. "HIES2007" for "Household Income and Expenditure Survey 2007"
 *	Create various sub-directories for the data files (and for the various versions of the dataset if relevant)
 *	Create sub-directories for the documentation and for the program files if relevant (see example).
 .. image:: images/org_files.png

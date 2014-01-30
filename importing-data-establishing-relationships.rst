@@ -13,7 +13,7 @@ Then establish the relations and validate them using the Tool > Validate Relatio
 
 .. image:: images/er-example.png
 
-If you have imported your data from any format other than fixed ASCII, re-sequence the data using the Variables > Resequence option in the Toolkit. This re-sequencing tool will automatically fill the “StartCol” and “EndCol” columns in the variable description section. This must be done for each data file.
+If you have imported your data from any format other than fixed ASCII, re-sequence the data using the Variables > Resequence option in the Toolkit. This re-sequencing tool will automatically fill the "StartCol" and "EndCol" columns in the variable description section. This must be done for each data file.
 
 .. image:: images/variables.png
 
@@ -21,7 +21,7 @@ Before going further, quickly browse all variables in all data files to visually
 
 .. image:: images/frequencies.png
 
-Last, view the content of each data files in the “Data Entry” page. All data should be displayed in black fonts. Data displayed in bold red indicate out of range values. Data in bold blue fonts indicate that value labels are missing for that variable. 
+Last, view the content of each data files in the "Data Entry" page. All data should be displayed in black fonts. Data displayed in bold red indicate out of range values. Data in bold blue fonts indicate that value labels are missing for that variable. 
 
 .. image:: images/error_values.png
 

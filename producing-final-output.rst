@@ -1,13 +1,13 @@
 ================
-Gathering and preparing the dataset
+Producing the final output
 ================
 
 Once you are confident that all necessary checks have been completed, you may generate the final output using the CD-ROM Builder module of the IHSN Toolkit. This includes the CD-ROM and survey website. 
 
 Before you generate the CD-ROM:
 
-1.	Make sure you have a customized “branding” for the CD-ROM. If you don’t, design a branding (instructions are provided in the Toolkit User’s Guide).
-2.	Prepare content for the “Home page” of the CD-ROM. Typically, a statement by the Director of the data producing agency, or a brief summary of the objectives and findings of the survey, will be generated. 
+1.	Make sure you have a customized "branding" for the CD-ROM. If you don’t, design a branding (instructions are provided in the Toolkit User’s Guide).
+2.	Prepare content for the "Home page" of the CD-ROM. Typically, a statement by the Director of the data producing agency, or a brief summary of the objectives and findings of the survey, will be generated. 
 
 Generate the CD-ROM with the appropriate options. The IHSN recommends:
 
