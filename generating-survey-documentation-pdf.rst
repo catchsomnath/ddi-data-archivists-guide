@@ -6,7 +6,7 @@ The Microdata Management Toolkit includes a useful tool for producing a PDF docu
 
 This report should be generated, saved and attached as an External Resource.
 
-..Note:: 
+.. note:: 
 
 The PDF report will include a list of all external resources related to the study. This list should include this PDF report itself. Before you generate it, make sure you create one entry in the External Resources for documenting this report. Immediately after you generate the PDF report, import it in the Toolkit. 
 
