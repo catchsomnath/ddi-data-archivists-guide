@@ -8,7 +8,7 @@ Create an entry for each resource by entering a label in the Resource Informatio
 .. image:: images/ext_resources.png
 Example: 
 
-Let’s assume your study is a household budget survey conducted in 2007. If you followed the recommendations made in the introductory chapter "Before you start – Organizing your files", you will have created a directory like C:\HIES2007. Your nesstar file will be saved as HIES2007.Nesstar in this directory. Suppose also that a document titled Report2007.pdf is saved in a directory C:\HIES2007\DOCS. When you fill the resource field in the External Resources page, do NOT enter "C:\HIES2007\DOCS\Report2007.pdf. Enter the file name as follows: 
+Let’s assume your study is a household budget survey conducted in 2007. If you followed the recommendations made in the introductory chapter "Before you start – Organizing your files", you will have created a directory like C:\HIES2007. Your nesstar file will be saved as HIES2007.Nesstar in this directory. Suppose also that a document titled Report2007.pdf is saved in a directory C:\\HIES2007\\DOCS. When you fill the resource field in the External Resources page, do NOT enter "C:\\HIES2007\\DOCS\\Report2007.pdf. Enter the file name as follows: 
 
 .. image:: images/resources.png
 
