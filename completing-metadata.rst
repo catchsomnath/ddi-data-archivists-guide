@@ -17,3 +17,13 @@ Overall recommendations:
 *	As an archivist, you may need to seek assistance from key experts involved in some of the technical aspects of the survey. 
 *	As a general rule, avoid using ALL CAPS when you fill DDI fields. Also, check the spelling of all entries. The Toolkit does not provide (yet) an automatic spell checker.
 *	Some of the examples below present an optimal documentation of some fields. In many cases, for past surveys, you will not find such detailed information. Try to provide as much detail as possible. For future surveys, the information should be compiled and provided during the whole life cycle of the survey. This will ensure that the best possible documentation is available at completion of that survey.
+
+
+.. toctree::
+   :maxdepth: 1
+   
+   51-good-practices-for-completing-the-document-description
+   52-good-practices-for-completing-the-study-description
+   53-good-practices-for-completing-the-file-description
+   54-good-practices-for-completing-the-variables-description
+   55-good-practices-for-completing-the-external-resources-description
