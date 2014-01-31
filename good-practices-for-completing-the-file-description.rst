@@ -6,7 +6,7 @@ The File Description is the DDI section that aims to provide a detailed descript
 
 .. raw:: html
 		
-		<table border="1" cellpadding="0" cellspacing="0">
+		<table>
 		<tbody>
         <tr>
             <td valign="top">

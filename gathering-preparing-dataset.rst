@@ -25,16 +25,14 @@ Example: Suppose the unique identification of a household is the combination of 
 
 .. raw:: html
 
-		<table border="1" cellpadding="0" cellspacing="0">
+		<table>
 		<tbody>
         <tr>
             <td colspan="4" valign="top">
                 <p>
                     <strong>Option 1:</strong>
                 </p>
-                <p>
-                    <br/>
-                    Use a combination of four variables
+                <p>Use a combination of four variables
                 </p>
             </td>
             <td valign="top">

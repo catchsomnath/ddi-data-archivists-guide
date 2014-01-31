@@ -8,7 +8,7 @@ Documenting a study using the DDI and DCMI metadata standards consists of genera
 .. raw:: html
 	
 
-	<table border="1" cellpadding="0" cellspacing="0">
+	<table>
 	    <tbody>
 		<tr>
 		    <td valign="top">
@@ -51,7 +51,7 @@ Documenting a study using the DDI and DCMI metadata standards consists of genera
 
 
 			
-			<table border="1" cellpadding="0" cellspacing="0">
+			<table>
 			    <tbody>
 			        <tr>
 			            <td valign="top">

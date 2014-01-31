@@ -6,7 +6,7 @@ The External Resources are all materials related to the study others than the da
 
 .. raw:: html
 
-		<table border="1" cellpadding="0" cellspacing="0">
+		<table>
 		<tbody>
         <tr>
             <td valign="top">

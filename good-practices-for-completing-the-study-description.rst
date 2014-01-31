@@ -10,7 +10,7 @@ Identification
 
 .. raw:: html
 
-		<table border="1" cellpadding="0" cellspacing="0">
+		<table>
 		<tbody>
         
         <tr>
@@ -185,7 +185,7 @@ Version
 
 .. raw:: html
 
-		<table border="1" cellpadding="0" cellspacing="0">
+		<table>
 		<tbody>
 		<tr>
             <td valign="top">
@@ -256,7 +256,7 @@ Overview
 
 .. raw:: html
 
-		<table border="1" cellpadding="0" cellspacing="0">
+		<table>
 		<tbody>		
 		 <tr>
             <td valign="top">
@@ -312,7 +312,7 @@ Scope
 
 .. raw:: html
 
-		<table border="1" cellpadding="0" cellspacing="0">
+		<table>
 		<tbody>
         <tr>
             <td valign="top">
@@ -454,13 +454,13 @@ Coverage
 		</tbody>
 		</table>
 
-============
+-----------
 Producers and Sponsors
-============
+-----------
 
 .. raw:: html
 		
-		<table border="1" cellpadding="0" cellspacing="0">
+		<table>
     	<tbody>
         <tr>
             <td valign="top">
@@ -539,7 +539,7 @@ Sampling
 
 .. raw:: html
 
-		<table border="1" cellpadding="0" cellspacing="0">
+		<table>
 		<tbody>
         <tr>
             <td valign="top">
@@ -677,7 +677,7 @@ Data Collection
 
 .. raw:: html
 
-		<table border="1" cellpadding="0" cellspacing="0">
+		<table>
 		<tbody>
         <tr>
             <td valign="top">
@@ -787,7 +787,7 @@ Data Processing
 
 .. raw:: html
 
-		<table border="1" cellpadding="0" cellspacing="0">
+		<table>
 		<tbody>
         <tr>
             <td valign="top">
@@ -951,7 +951,7 @@ Data Processing
 
 .. raw:: html
 
-		<table border="1" cellpadding="0" cellspacing="0">
+		<table>
 		<tbody>
         <tr>
             <td valign="top">
@@ -1060,13 +1060,13 @@ Data Processing
 					<li>Production of analysis tabulations</li>
                 </ul>
                 
-				<p>
+		<p>
                     <em>
                         Details of each of these steps can be found in the data processing documentation, data editing guidelines, data processing programs in
                         CSPro and SPSS, and tabulation guidelines.
                     </em>
-                </p>
-                <p>
+        </p>
+        <p>
                     <em>
                         Data entry was conducted by 12 data entry operators in tow shifts, supervised by 2 data entry supervisors, using a total of 7 computers
                         (6 data entry computers plus one supervisors’ computer). All data entry was conducted at the GenCenStat head office using manual data
@@ -1076,40 +1076,40 @@ Data Processing
                         Z-scores was also included in the data entry programs for use during analysis. Open-ended responses ("Other" answers) were not entered
                         or coded, except in rare circumstances where the response matched an existing code in the questionnaire.
                     </em>
-                </p>
-                <p>
+        </p>
+        <p>
                     <em>
                         Structure and completeness checking ensured that all questionnaires for the cluster had been entered, were structurally sound, and that
                         women's and children's questionnaires existed for each eligible woman and child.
                     </em>
-                </p>
-                <p>
+        </p>
+		<p>
                     <em>
                         100% verification of all variables was performed using independent verification, i.e. double entry of data, with separate comparison of
                         data followed by modification of one or both datasets to correct keying errors by original operators who first keyed the files.
                     </em>
-                </p>
-                <p>
-                    <em>
-                        After completion of all processing in CSPro, all individual cluster files were backed up before concatenating data together using the
-                        CSPro file concatenate utility.
-                    </em>
-                </p>
-                <p>
-                    <em>
-                        For tabulation and analysis SPSS versions 10.0 and 14.0 were used. Version 10.0 was originally used for all tabulation programs, except
-                        for child mortality. Later version 14.0 was used for child mortality, data quality tabulations and other analysis activities.
-                    </em>
-                </p>
-                <p>
-                    <em>
-                        After transferring all files to SPSS, certain variables were recoded for use as background characteristics in the tabulation of the
-                        data, including grouping age, education, geographic areas as needed for analysis. In the process of recoding ages and dates some random
-                        imputation of dates (within calculated constraints) was performed to handle missing or "don't know" ages or dates. Additionally, a
-                        wealth (asset) index of household members was calculated using principal components analysis, based on household assets, and both the
-                        score and quintiles were included in the datasets for use in tabulations.
-                    </em>
-                </p>
+		</p>
+		<p>
+			<em>
+				After completion of all processing in CSPro, all individual cluster files were backed up before concatenating data together using the
+				CSPro file concatenate utility.
+			</em>
+		</p>
+		<p>
+			<em>
+				For tabulation and analysis SPSS versions 10.0 and 14.0 were used. Version 10.0 was originally used for all tabulation programs, except
+				for child mortality. Later version 14.0 was used for child mortality, data quality tabulations and other analysis activities.
+			</em>
+		</p>
+		<p>
+			<em>
+				After transferring all files to SPSS, certain variables were recoded for use as background characteristics in the tabulation of the
+				data, including grouping age, education, geographic areas as needed for analysis. In the process of recoding ages and dates some random
+				imputation of dates (within calculated constraints) was performed to handle missing or "don't know" ages or dates. Additionally, a
+				wealth (asset) index of household members was calculated using principal components analysis, based on household assets, and both the
+				score and quintiles were included in the datasets for use in tabulations.
+			</em>
+		</p>
             </td>
         </tr>
     	</tbody>
@@ -1121,7 +1121,7 @@ Data Appraisal
 
 .. raw:: html
 
-		<table border="1" cellpadding="0" cellspacing="0">
+		<table>
 		<tbody>
         <tr>
             <td valign="top">
@@ -1245,7 +1245,7 @@ Data Access
 
 .. raw:: html
 
-		<table border="1" cellpadding="0" cellspacing="0">
+		<table>
 		<tbody>
         <tr>
             <td valign="top">
@@ -1395,7 +1395,7 @@ Disclaimer and Copyright
 
 .. raw:: html
 
-		<table border="1" cellpadding="0" cellspacing="0">
+		<table>
 		<tbody>
         <tr>
             <td valign="top">
@@ -1425,7 +1425,7 @@ Contacts
 
 .. raw:: html
 
-		<table border="1" cellpadding="0" cellspacing="0">
+		<table>
 		<tbody>
         <tr>
             <td valign="top">

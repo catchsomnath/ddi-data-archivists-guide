@@ -6,7 +6,7 @@ The Variable Description is the section of the DDI document that provides detail
 
 .. raw:: html
 
-		<table border="1" cellpadding="0" cellspacing="0">
+		<table>
 	    <tbody>
         <tr>
             <td valign="top">
