@@ -964,21 +964,22 @@ Data Processing
                     The data editing should contain information on how the data was treated or controlled for in terms of consistency and coherence. This item
                     does not concern the data entry phase but only the editing of data whether manual or automatic.
                 </p>
-                <p>
-                    · Was a hot deck or a cold deck technique used to edit the data?
-                </p>
-                <p>
-                    · Were corrections made automatically (by program), or by visual control of the questionnaire?
-                </p>
-                <ul>
+				 <ul>
+                <li>
+						Was a hot deck or a cold deck technique used to edit the data?
+                </li>
+                <li>
+                    Were corrections made automatically (by program), or by visual control of the questionnaire?
+                </li>
+               
                     <li>
                         What software was used?
                     </li>
                 </ul>
-                <p>
-                    If materials are available (specifications for data editing, report on data editing, programs used for data editing), they should be listed
-                    here and provided as external resources.
-                </p>
+						
+				<p>
+					If materials are available (specifications for data editing, report on data editing, programs used for data editing), they should be listed here and provided as external resources.
+				</p>
                 <p>
                     Example:
                 </p>
@@ -1045,12 +1046,14 @@ Data Processing
 					<li>Office editing and coding</li>
 					<li>Data entry</li>
 					<li>Structure and completeness checking</li>
-					<li>Verification entry<</li>
+					<li>Verification entry</li>
 					<li>Comparison of verification data</li>
 					<li>Back up of raw data</li>
 					<li>Secondary editing</li>
 					<li>Edited data back up</li>
-					After all clusters are processed, all data is concatenated together and then the following steps are completed for all data files:
+					
+				After all clusters are processed, all data is concatenated together and then the following steps are completed for all data files:
+					
 					<li>Export to SPSS in 4 files (hh - household, hl - household members, wm - women, ch - children under </li>
 					<li>Recoding of variables needed for analysis</li>
 					<li>Adding of sample weights</li>

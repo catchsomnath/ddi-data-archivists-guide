@@ -16,7 +16,7 @@ Variable groups also have their own DDI elements which include Type, Label, Text
 
 .. raw:: html
 
-		<table border="1" cellpadding="0" cellspacing="0">
+		<table>
 		<tbody>
         <tr>
             <td valign="top">

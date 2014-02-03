@@ -41,7 +41,7 @@ The Variable Description is the section of the DDI document that provides detail
                 <ul>
                     <li>Do not use ALL CAPS in labels.</li>
 					<li>Make sure that different variables have different labels (avoid duplicate labels). The IHSN Toolkit provides a tool to check availability and unicity of variable labels (see Tools &gt; Validate Variable).
-					<li>For expenditure or income: indicating the currency and period of reference is crucial (e.g. "Annual per capita real expenditure in local currency" </li>
+					<li>For expenditure or income: indicating the currency and period of reference is crucial (e.g. "Annual per capita real expenditure in local currency") </li>
                 </ul>
             </td>
         </tr>
@@ -402,7 +402,7 @@ The Variable Description is the section of the DDI document that provides detail
                         </em>
                     </li>
                     <li>
-                        Post-question: <em>If answer is 2 or 9 &gt; Goto next module</em>
+                        Post-question: <em>If answer is 2 or 9 &gt; Go to next module</em>
                     </li>
                 </ul>
             </td>
